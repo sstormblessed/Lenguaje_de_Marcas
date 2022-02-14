@@ -1,0 +1,47 @@
+.uno{
+	width: 70%;
+	height: 10%;
+	border: 1px solid black;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+
+.dos{
+	margin-right: 20%;
+	height: 10%;
+	border: 1px solid black;
+	margin-left: 10%;
+	margin-top: 30%;
+}
+
+.tres{
+	width: 70%;
+	margin-right: 20%;
+	height: 10%;
+	border: 1px solid black;
+	margin-top: 45%;
+}
+
+.cuatro{
+	border: 1px solid black;
+	margin-left: 10%;
+	width: 20%;
+	margin-top: 60%;
+	height: 30%;
+}
+
+.cinco{
+	border: 1px solid black;
+	margin-left: 40%;
+	width: 20%;
+	margin-top: 60%;
+	margin-bottom: 10%;
+}
+
+.seis{
+	border: 1px solid black;
+	margin-left: 70%;
+	width: 20%;
+	margin-bottom: 10%;
+	height: 30%;
+}

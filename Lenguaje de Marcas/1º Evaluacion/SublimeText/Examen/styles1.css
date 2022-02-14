@@ -1,0 +1,24 @@
+.cuadrado{
+	list-style-type: square;
+}
+
+.circulo{
+	list-style-type: circle;
+}
+
+.bola{
+	list-style-type: disc;
+}
+
+.letras{
+	list-style-type: lower-alpha;
+}
+
+.titulos{
+	list-style-type: none;
+}
+
+.jeje{
+	font-size: 1.5em;
+	list-style-type: none;
+}

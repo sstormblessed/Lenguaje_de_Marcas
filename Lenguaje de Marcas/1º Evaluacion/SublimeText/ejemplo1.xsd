@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+   
+    <!--ELEMENTO RAIZ-->
+    <xs:element name="breakfast_menu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="food"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+   
+    <!--elemento complejo que se puede repetir y tiene elementos simple siempre en el mismo orden-->
+    <xs:element name="food">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="price"/>
+                <xs:element ref="description"/>
+                <xs:element ref="calories"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    
+    
+    <!--Elementos finales o simples-->
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="price" type="xs:string"/>
+    <xs:element name="description" type="xs:string"/>
+    <xs:element name="calories" type="xs:integer"/>
+
+
+</xs:schema>

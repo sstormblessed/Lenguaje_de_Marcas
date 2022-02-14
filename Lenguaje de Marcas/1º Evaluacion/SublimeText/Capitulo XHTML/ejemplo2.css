@@ -1,0 +1,23 @@
+/* Estilos para el ejemplo 2 de listas */
+
+body{
+	width: 90%;
+	margin: auto;
+	border: 1px solid black;
+	padding: 10%;
+}
+
+.orden{
+	list-style-type: lower-greek;
+}
+
+
+/* ul.cuadrado{
+	list-style-type: square;
+	font-size: 12pt;
+}
+
+li.horizontal{
+	display: inline;
+}
+*/

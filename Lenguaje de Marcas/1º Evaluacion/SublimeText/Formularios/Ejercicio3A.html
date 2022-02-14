@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio Formularios Examen 1</title>
+</head>
+<body>
+
+<form>
+	<fieldset>
+		<legend>Rellene las opciones siguientes</legend>
+		<input type="radio" name="asignatura" value="Lengua">
+		<label>Lengua</label><br>
+		<input type="radio" name="asignatura" value="Matemáticas">
+		<label>Matemáticas →</label><br>
+		<input type="radio" name="asignatura" value="Historia">
+		<label>Historia</label><br>
+		<input type="radio" name="asignatura" value="Geografía">
+		<label>Geografía</label><br>
+		<br>
+		<select id="asignaturas" name="lista" size="4">
+			<option value="Lengua">Lengua</option>
+			<option value="Matemáticas">Matemáticas</option>
+			<option value="Historia">Historia</option>
+			<option value="Geografía">Geografía</option>
+		</select>
+		<br>
+		<label>Elija un color: </label>
+		<input type="color" id="favcolor" name="favcolor">
+		<br>
+		<label>Instituto </label>
+		<input type="text" name="centro" value="">
+		<label>Estudios elegidos </label>
+		<input type="text" name="estudios" value="">
+		<br>
+		<label>Elija un fichero: </label>
+		<input type="file" name="archivo">
+		<input type="hidden" name="url_previa" value="">
+		<br>
+		<input type="checkbox" name="dias" value="Lunes">
+		<label>Lunes</label><br>
+		<input type="checkbox" name="dias" value="Martes">
+		<label>Martes</label><br>
+		<input type="checkbox" name="dias" value="Miércoles">
+		<label>Miércoles</label><br>
+		<input type="checkbox" name="dias" value="Jueves">
+		<label>Jueves</label><br>
+		<input type="checkbox" name="dias" value="Viernes">
+		<label>Viernes</label>
+		<br>
+	</fieldset>
+	<fieldset>
+		<legend>Por favor, complete estas opciones</legend>
+		<textarea id="textarea" name="espacio" cols="40" rows="5">Utilice este recuadro por favor</textarea>
+		<br>
+		<label>Elija un color: </label>
+		<input type="color" id="favcolor" name="favcolor">
+		<br>
+		<input type="radio" name="lenguaje" value="Java">
+		<label>Java</label>
+		<input type="radio" name="lenguaje" value="Python">
+		<label>Python</label>
+		<input type="radio" name="lenguaje" value="HTML">
+		<label>HTML</label>
+		<input type="radio" name="lenguaje" value="VisualBasic">
+		<label>Visual Basic</label>
+		<input type="radio" name="lenguaje" value="CSS">
+		<label>CSS</label>
+		<br>
+		<label>Nombre </label>
+		<input type="text" name="nombre" value="">
+		<label>Apellidos </label>
+		<input type="text" name="apellidos" value="">
+		<label>Email</label>
+		<input type="text" name="email" value="">
+		<label>Teléfono</label>
+		<input type="text" name="telefono" value="">
+		</fieldset>
+</form>
+
+</body>
+</html>

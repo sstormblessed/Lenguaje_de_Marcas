@@ -1,0 +1,29 @@
+div{
+	align-content: center;
+	vertical-align: center;
+	width: 40%;
+	min-height: 40%;
+	background-color: bisque;
+	border-style: inset;
+}
+
+th{
+	min-width: 2.5em;
+	padding: 10px;
+	border: 3px solid grey;
+	border-style: ridge;
+	border-collapse: collapse;
+  	font-size:1.2em;
+}
+
+.white{
+	background-color: white;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.orange{
+	background-color: orange;
+}

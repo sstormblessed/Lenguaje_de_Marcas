@@ -1,0 +1,18 @@
+body{
+	width: 90%;
+	margin: auto;
+	border: 1px solid black;
+	padding: 10%;
+}
+
+ol.q {list-style-type: upper-roman;}
+
+ul.cuadrado{
+	list-style-type: square;
+	font-size: 12pt;
+}
+
+ul.circulo{
+	list-style-type: circle;
+	font-size: 12pt;
+}

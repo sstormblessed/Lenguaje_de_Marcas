@@ -1,0 +1,31 @@
+<colección>
+
+	<cd>
+		<titulo> Inside </titulo>
+		<artista> Bo Burnham</artista>
+		<duración> 30m </duración>
+		<año> 2021 </año>
+	</cd>
+
+	<cd>
+		<titulo> Pink Season </titulo>
+		<artista> Pink Guy </artista>
+		<duración> 81m </duración>
+		<año> 2017 </año>
+	</cd>
+
+	<cd>
+		<titulo> Meteora </titulo>
+		<artista> Linkin Park </artista>
+		<duración> 36m </duración>
+		<año> 2003 </año>
+	</cd>
+
+	<cd>
+		<titulo> American Idiot </titulo>
+		<artista> Green Day </artista>
+		<duración> 57m </duración>
+		<año> 2004 </año>
+	</cd>
+
+</colección>
