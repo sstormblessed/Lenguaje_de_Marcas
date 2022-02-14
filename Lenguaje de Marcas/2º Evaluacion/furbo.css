@@ -1,0 +1,26 @@
+#uno {
+position: absolute;
+left: 100px;
+top: 100px;
+z-index: 1;}
+#dos {
+position: absolute;
+left: 200px;
+top: 200px;
+z-index: 2;}
+#tres {
+position: absolute;
+left: 300px;
+top: 300px;
+z-index: 3;}
+#cuatro {
+position: absolute;
+left: 400px;
+top: 400px;
+z-index: 4;}
+
+#cinco {
+position: absolute;
+left: 500px;
+top: 500px;
+z-index: 5;}

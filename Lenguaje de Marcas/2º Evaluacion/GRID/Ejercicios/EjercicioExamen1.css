@@ -1,0 +1,27 @@
+body{
+	background-color: cadetblue;
+	margin: 40px;
+	width: auto;
+}
+
+.wrapper{
+	padding: 10px;
+	display: grid;
+
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 200px 150px;
+
+	grid-gap: 30px;
+	background-color: darkcyan;
+	border: 3px solid darkred;
+}
+
+.box{
+	margin: 2px;
+	padding: 5px;
+	background-color: darkgoldenrod;
+	border: 3px solid darkred;
+	border-color: darkred;
+	border-radius: 10px;
+	padding-top: 40px;
+}
