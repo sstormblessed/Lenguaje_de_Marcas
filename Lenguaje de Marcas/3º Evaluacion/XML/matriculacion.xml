@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<matriculacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="matriculacion.xsd">
+    <matricula>
+        <personal>
+            <dni>99223366M</dni>
+            <nombre>Juan Pardo Martín</nombre>
+            <titulacion>Ingeniería Informática</titulacion>
+            <curso_academico>1997/1998</curso_academico>
+            <domicilios>
+                <domicilio tipo="familiar">
+                    <nombre>C/ Principal nº1</nombre>
+                </domicilio>
+                <domicilio tipo="habitual">
+                    <nombre>C/ Secundaria nº2</nombre>
+                </domicilio>
+            </domicilios>
+        </personal>
+        <pago>
+            <tipo_matricula>Matrícula Ordinaria</tipo_matricula>
+        </pago>
+        <comentario>Es su tercera matrícula</comentario>
+    </matricula>
+
+    <matricula>
+        <personal>
+            <dni>12345678A</dni>
+            <nombre>Poto Manin Rodriguez</nombre>
+            <titulacion>Ingeniería Aeroespacial</titulacion>
+            <curso_academico>2022/2023</curso_academico>
+            <domicilios>
+                <domicilio tipo="habitual">
+                    <nombre>C/ Callejuela nº1</nombre>
+                </domicilio>
+                <domicilio tipo="paterno">
+                    <nombre>C/ Callecita nº2</nombre>
+                </domicilio>
+            </domicilios>
+        </personal>
+        <pago>
+            <tipo_matricula>Matrícula Ordinaria</tipo_matricula>
+        </pago>
+        <comentario>Está apuntado al comedor</comentario>
+    </matricula>
+
+    <matricula>
+        <personal>
+            <dni>87654321Z</dni>
+            <nombre>Chert Feldespato</nombre>
+            <titulacion>Astrofísica</titulacion>
+            <curso_academico>2022/2023</curso_academico>
+            <domicilios>
+                <domicilio tipo="habitual">
+                    <nombre>C/ Lumbre nº42</nombre>
+                </domicilio>
+            </domicilios>
+        </personal>
+        <pago>
+            <tipo_matricula>Matrícula Extraordinaria</tipo_matricula>
+        </pago>
+    </matricula>
+
+</matriculacion>

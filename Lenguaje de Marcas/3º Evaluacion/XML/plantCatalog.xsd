@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema"
+           targetNamespace = "http://flores.com/"
+           elementFormDefault = "qualified"
+           attributeFormDefault = "unqualified">
+
+    <xs:element name="CATALOG">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="PLANT" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="COMMON" type="xs:string"/>
+                            <xs:element name="BOTANICAL" type="xs:string"/>
+                            <xs:element name="ZONE" type="xs:string"/>
+                            <xs:element name="LIGHT" type="xs:string"/>
+                            <xs:element name="PRICE" type="xs:string"/>
+                            <xs:element name="AVAILABILITY" type="xs:int"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

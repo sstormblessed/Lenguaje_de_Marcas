@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<informes xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+          xsi:noNamespaceSchemaLocation="editorial.xsd">
+    <informe>
+        <cabecera fecha="20/12/2009">
+            <edicion>Ediciones Aranda</edicion>
+            <informeRegional></informeRegional>
+            <descripcion>Informe de ventas par las regiones Norte, Centro y Sur</descripcion>
+        </cabecera>
+
+        <datos>
+            <region region="Norte">
+                <trimestre num="1">24000</trimestre>
+                <trimestre num="2">38600</trimestre>
+                <trimestre num="3">NO_INFO</trimestre>
+                <trimestre num="4">NO_INFO</trimestre>
+            </region>
+
+            <region region="Centro">
+                <trimestre num="1">NO_INFO</trimestre>
+                <trimestre num="2">16080</trimestre>
+                <trimestre num="3">25000</trimestre>
+                <trimestre num="4">29000</trimestre>
+            </region>
+
+            <region region="Sur">
+                <trimestre num="1">27000</trimestre>
+                <trimestre num="2">31400</trimestre>
+                <trimestre num="3">40100</trimestre>
+                <trimestre num="4">30000</trimestre>
+            </region>
+        </datos>
+    </informe>
+</informes>

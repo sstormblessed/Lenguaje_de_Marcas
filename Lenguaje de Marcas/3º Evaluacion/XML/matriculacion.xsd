@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+    <xs:element name="matriculacion" type="tMatriculacion"/>
+
+    <xs:complexType name="tMatriculacion">
+        <xs:sequence>
+            <xs:element name="matricula" type="tMatricula" maxOccurs="unbounded" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tMatricula">
+        <xs:sequence>
+            <xs:element name="personal" type="tPersonal"/>
+            <xs:element name="pago" type="tPago"/>
+            <xs:element name="comentario" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tPersonal">
+        <xs:sequence>
+            <xs:element name="dni" type="xs:string"/>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="titulacion" type="xs:string"/>
+            <xs:element name="curso_academico" type="xs:string"/>
+            <xs:element name="domicilios" type="tDomicilios"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tPago">
+        <xs:sequence>
+            <xs:element name="tipo_matricula" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tDomicilios">
+        <xs:sequence>
+            <xs:element name="domicilio" type="tDomicilio" maxOccurs="unbounded" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tDomicilio">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="tipo" type="xs:string" use="required"/>
+    </xs:complexType>
+
+</xs:schema>
